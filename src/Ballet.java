@@ -9,8 +9,4 @@ public class Ballet extends MusicShow {
     public String getChoreographer() {
         return choreographer;
     }
-
-    public void setChoreographer(String choreographer) {
-        this.choreographer = choreographer;
-    }
 }

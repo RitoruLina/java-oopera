@@ -1,6 +1,6 @@
 public class Theatre {
     public static void main(String[] args) {
-        System.out.println("Добро пожаловать в театр! \n");
+        System.out.println("Добро пожаловать в театр!\n");
 
         Actor actor1 = new Actor("Александр", "Петров", "мужчина", 185);
         Actor actor2 = new Actor("Юлия", "Пересильд", "женщина", 170);
@@ -43,7 +43,7 @@ public class Theatre {
         ballet.printListOfActors();
 
         System.out.println("\nЗамена актёра в спектакле \"Евгений Онегин\"");
-        opera.replaceActorBySurname(actor1, "Иванова");
+        opera.replaceActorBySurname(actor1, "Пересильд");
 
         System.out.println("\nОбновлённый список:");
         opera.printListOfActors();
